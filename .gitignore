@@ -1,0 +1,18 @@
+# Local Python environments
+.venv/
+.venv-*/
+
+# Downloaded tools and models (see the README for where to get them)
+llama.cpp/
+models/
+*.gguf
+
+# Your own settings and run-time files
+bridge_settings.json
+*.log
+screenshots/
+
+# Python caches
+__pycache__/
+*.pyc
+
